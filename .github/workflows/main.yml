@@ -43,5 +43,5 @@ jobs:
           context: .
           platforms: linux/arm64
           push: true
-          tags: keytelematics/docker-dotnetcore-runtime-aws:latest
+          tags: isanderthul/docker-dotnetcore-runtime-aws:latest
           labels: ${{ steps.meta.outputs.labels }}
